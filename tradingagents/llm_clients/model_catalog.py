@@ -116,12 +116,14 @@ MODEL_OPTIONS: ProviderModeOptions = {
     },
     "xai": {
         "quick": [
-            ("Grok 4.3 - Latest flagship, fast with built-in reasoning", "grok-4.3"),
+            ("Grok 4.7 - Latest flagship, built-in reasoning, 500K ctx", "grok-4.7"),
+            ("Grok 4.3 - Fast with built-in reasoning, 1M ctx", "grok-4.3"),
             ("Grok 4.20 (Non-Reasoning) - Speed-optimized", "grok-4.20-0309-non-reasoning"),
             ("Grok Build 0.1 - Coding-specialized, 256K ctx", "grok-build-0.1"),
         ],
         "deep": [
-            ("Grok 4.3 - Latest flagship, built-in reasoning, 1M ctx", "grok-4.3"),
+            ("Grok 4.7 - Latest flagship, most capable reasoning, 500K ctx", "grok-4.7"),
+            ("Grok 4.3 - Fast reasoning, 1M ctx", "grok-4.3"),
             ("Grok 4.20 (Reasoning) - Previous-gen reasoning", "grok-4.20-0309-reasoning"),
             ("Grok 4.20 Multi-Agent - Multi-agent reasoning", "grok-4.20-multi-agent-0309"),
         ],

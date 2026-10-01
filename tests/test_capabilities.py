@@ -103,7 +103,7 @@ class TestDefault:
         assert caps.preferred_structured_method == "function_calling"
 
     def test_grok_default(self):
-        caps = get_capabilities("grok-4-0709")
+        caps = get_capabilities("grok-4.7")
         assert caps.supports_tool_choice is True
 
     def test_unknown_model_default(self):
